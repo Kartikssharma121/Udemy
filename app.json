@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Udemy",
+    "slug": "Udemy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logotext.png",
+    "userInterfaceStyle": "light","newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logotext.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kartikssharma.Udemy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b81c0d26-3887-4edb-9114-a69de6749506"
+      }
+    }
+  }
+}
